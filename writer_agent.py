@@ -24,7 +24,7 @@ class ReportData(BaseModel):
     "Suggested topics to research further"
 
 # create the agent
-writer_agent = Agent(
+writer = Agent(
             name = "Writer Agent",
             instructions = Instructions,
             model = "gpt-4o-mini",

@@ -6,7 +6,7 @@ Instructions = ("You are a research assistant. Given a search term, you search t
                 "grammar. This will be consumed by someone synthesizing a report, so its vital you capture the "
                 "essence and ignore any fluff. Do not include any additional commentary other than the summary itself.")
 
-search_agent = Agent(
+searcher = Agent(
                 name = "Search Agent",
                 instructions=Instructions,
                 model="gpt-4o-mini",
